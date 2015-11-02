@@ -1,7 +1,7 @@
 #!/usr/bin/make
 
 .PHONY : all deps compile test clean
-all: deps compile test
+all: deps compile
 ifdef REBAR
 deps:
 	$(info REBAR is $(REBAR))
